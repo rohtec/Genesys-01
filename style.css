@@ -1,0 +1,198 @@
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  cursor: zoom-in;
+  font-family: Hanken Grotesk;
+}
+body {
+ background-color: black;
+}
+main {
+    margin: 40px auto;
+    width: 75%;
+    height: 89vh;
+    background-color:rgb(255,255,255) ;
+    display: flex;
+    align-items: center;
+}
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 47%;
+  height: 54%;
+  border-radius: 20px;
+  margin: auto;
+  box-shadow: 1px 6px 15px RGBA(180, 180, 180, 0.4);
+}
+.grid1 {
+  background-image: linear-gradient(to bottom, rgba(99,64,252,1), rgba(57,48,237,1.0)); 
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.grid2 {
+  background-color: transparent;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: grid;
+  grid-template-rows: auto;
+  padding-left: 30px;
+  
+}
+h3 {
+  color:rgb(203,190,255);
+  font-size: 17px;
+  padding-top: 15px;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  width: 145px;
+  height: 145px;
+  border-radius: 50%;
+  background-image: linear-gradient(to top, rgba(69,51,235.0,3), rgba(76,35,202,1));
+}
+h1 {
+  color: white;
+  font-size: 55px;
+  margin-top: 30px;
+}
+p {
+  margin-top: -50px;
+  color:rgb(203,190,255);
+  font-size: 12px
+}
+h2 {
+  color: white;
+}
+h4 {
+  color:rgba(203,190,255,0.9);
+  font-size: 13px;
+  letter-spacing: 0.9px;
+  margin-top: 0px;
+}
+.span1 {
+  padding-left: 10px;
+}
+.span2 {
+  padding-left: 60px;
+}
+h5 {
+  color:rgb(46,52,72);
+  font-size: 18px;
+}
+.tab1 {
+  display: flex;
+  align-items: center;
+  width:88%;
+  height: 5.5vh;
+  border-radius: 10px;
+  margin-bottom: 11px;
+}
+button {
+  width:88%;
+  height: 5.8vh;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  letter-spacing: 0.7px;
+  font-size: 13px;
+  background-color: rgb(48,59,89);
+  font-family: Hanken Grotesk;
+  cursor: pointer;
+}
+button:hover {
+  background-image: linear-gradient(to bottom, rgba(99,64,252,1), rgba(57,48,237,1.0)); 
+}
+.tab2 {
+  height: 7vh;
+}
+.tab3{
+  /* border: 1px solid green; */
+  height: 27vh;
+}
+#tab1 {
+  background-color: rgb(255,246,245);
+  border: none;
+  
+}
+.Reaction {
+  color: rgb(218,99,97);
+}
+#tab2 {
+  background-color: rgb(255,250,243);
+  border: none;
+}
+.Memory {
+  color:rgb(236,184,85) ;
+}
+#tab3 {
+  background-color: rgb(242,251,250);
+  border: none;
+}
+.Verbal {
+  color:rgb(97,207,181) ;
+}
+#tab4 {
+  background-color:rgb(242,242,251);
+  border: none;
+}
+.Visual {
+  color: rgb(19,30,138);
+}
+h6 {
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13.5px;
+}
+img {
+  padding: 0 8px 0 10px;
+  height: 15px;
+}
+#number {
+  padding-left: 70px;
+  font-size: 14px;
+}
+#number1 {
+  padding-left: 80px;
+  font-size: 14px;
+}
+.line {
+  color:rgba(46,52,72,0.7);
+  font-size: 14px;
+}
+
+@media all and (max-width: 601px) {
+  main {
+   
+    margin: 0 auto;
+    height: 99vh;
+  }
+  section{
+    margin: 0;
+    display: block;
+    width: 100%;
+    height: 99vh;
+    box-shadow: none;
+  }
+  .grid1{
+    
+    height: 50vh;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+  }
+  .grid2 {
+    gap: 20px;
+  }
+  #number {
+    padding-left: 125px;
+  }
+  #number1 {
+    padding-left: 138px;
+  }
+}
